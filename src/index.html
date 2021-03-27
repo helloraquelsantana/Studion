@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <nav class="navbar">
+    <nav class='navbar'>
+      <div class="container navbar__container">
       <h1 class="logo-studion">
         Studi<span class="copy--primary">on</span>
         <span class="logo-studion__subtitle">Eventos</span>
@@ -31,9 +32,10 @@
           <a href="#Contatos"> Contatos </a>
         </li>
       </ul>
-    </nav>
+    </div>
+  </nav>
 
-    <head>
+    <header>
       <div id="slider">
         <div class="slide">
           <img class="slide__background-image" src="./images/banner.jpg" alt="Studion Banner"
@@ -45,36 +47,39 @@
           </div>
         </div>
       </div>
-    </head>
+    </header>
 
     <main>
-      <section>
-        <ul>
+      <section id="counter">
+        <ul class="container counter__container">
           <li>
-            <h3>+ de 500</h3>
-            eventos realizados
+            <h3>+ de 500
+              <small>eventos realizados</small>
+            </h3>            
           </li>
           <li>
-            <h3>+ de 1 milão</h3>
-            de ingressos vendidos
+            <h3>+ de 1 milhão
+              <small>de ingressos vendidos</small>
+            </h3>            
           </li>
           <li>
-            <h3>+ de 300</h3>
-            empresas atentiddas
+            <h3>+ de 300
+              <small>empresas atentidas</small>
+            </h3>            
           </li>
         </ul>
       </section>
 
-      <section>
-        <div>
-          <img src="./images/institutional.jpg" alt="Insticional" />
+      <section class="container institutional">
+        <img class="institutional__image" src="./images/institutional.jpg" alt="Studion Institutional" />
+        <div class="institutional__copy">
           <h6>Fazemos seu evento acontecer</h6>
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, sunt
             laudantium ut provident eos, quisquam ea in fugit voluptate
           </p>
-          <button>Saiba mais</button>
+          <button class="btn btn--institutional">Saiba mais</button>
         </div>
       </section>
 
