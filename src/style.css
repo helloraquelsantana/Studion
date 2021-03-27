@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@400;500&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css');
@@ -16,7 +17,6 @@
     --color-primary: #ffc500;
     --default-padding: 1rem;
     color:var(--color-copyy);
-    
 }
 
 body {
@@ -158,6 +158,7 @@ ul {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
+
     outline: unset;
 }
  
